@@ -2,7 +2,7 @@ import random
 
 import arcade
 
-class Galaga_game(arcade.Window):
+class space_battle(arcade.Window):
     def __init__(self, width, height, title):
         super().__init__(width, height, title)
         self.score = 0
@@ -49,4 +49,4 @@ class Galaga_game(arcade.Window):
         if self.key == arcade.key.down
 
 
-        self.player = arcade.sprite("storm-trident.png")
+        
